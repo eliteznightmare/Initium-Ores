@@ -5,22 +5,20 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:extractMcpData
+:extractMcpData UP-TO-DATE
 :getVersionJson
 :extractUserDev
 Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.7.10-10.13.2.1230/forge-1.7.10-10.13.2.1230-userdev.jar
 :genSrgs
-:extractNatives
+:extractNatives UP-TO-DATE
 :copyNativesLegacy
 :getAssetsIndex
 :getAssets
 :makeStart
-:downloadMcpTools
+:downloadMcpTools SKIPPED
 :downloadClient SKIPPED
 :downloadServer SKIPPED
-:mergeJars
-Adding cpw/mods/fml/relauncher/SideOnly.class
-Adding cpw/mods/fml/relauncher/Side.class
+:mergeJars SKIPPED
 :deobfuscateJar
 Applying SpecialSource...
 Applying Exceptor...
@@ -39,10 +37,12 @@ Note: Recompile with -Xlint:unchecked for details.
 :repackMinecraft
 :setupDecompWorkspace
 :eclipseClasspath
+Download https://libraries.minecraft.net/net/minecraft/launchwrapper/1.11/launchwrapper-1.11-sources.jar
+Download http://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.0.3/asm-debug-all-5.0.3-sources.jar
 :eclipseJdt
 :eclipseProject
 :eclipse
 
 BUILD SUCCESSFUL
 
-Total time: 5 mins 10.917 secs
+Total time: 16 mins 41.997 secs
